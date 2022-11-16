@@ -1,88 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-16T00:10:30 IST" name="Default suite" finished-at="2022-11-16T00:12:23 IST" duration-ms="112710">
+  <suite started-at="2022-11-16T14:17:09 IST" name="Default suite" finished-at="2022-11-16T14:17:25 IST" duration-ms="16890">
     <groups>
-      <group name="To Verify AboutUs Links ">
-        <method signature="MainNav.VerifyAboutUs_Headerlinks()[pri:0, instance:com.anglo.MainNav@242b836]" name="VerifyAboutUs_Headerlinks" class="com.anglo.MainNav"/>
-      </group> <!-- To Verify AboutUs Links  -->
-      <group name="To Verify Sustainability Links ">
-        <method signature="MainNav.VerifySustainability_Headerlinks()[pri:0, instance:com.anglo.MainNav@242b836]" name="VerifySustainability_Headerlinks" class="com.anglo.MainNav"/>
-      </group> <!-- To Verify Sustainability Links  -->
-      <group name="To Verify Products Links ">
-        <method signature="MainNav.VerifyProducts_Headerlinks()[pri:0, instance:com.anglo.MainNav@242b836]" name="VerifyProducts_Headerlinks" class="com.anglo.MainNav"/>
-      </group> <!-- To Verify Products Links  -->
-      <group name="To Verify Investors Links ">
-        <method signature="MainNav.VerifyInvestors_Headerlinks()[pri:0, instance:com.anglo.MainNav@242b836]" name="VerifyInvestors_Headerlinks" class="com.anglo.MainNav"/>
-      </group> <!-- To Verify Investors Links  -->
-      <group name="To Verify Futuresmart Links ">
-        <method signature="MainNav.VerifyFuturesmart_Headerlinks()[pri:0, instance:com.anglo.MainNav@242b836]" name="VerifyFuturesmart_Headerlinks" class="com.anglo.MainNav"/>
-      </group> <!-- To Verify Futuresmart Links  -->
+      <group name="To Verify CountryDropdown Functionality">
+        <method signature="CountryDropdown.Verify_CountryDropdown_present()[pri:1, instance:com.anglo.CountryDropdown@437da279]" name="Verify_CountryDropdown_present" class="com.anglo.CountryDropdown"/>
+        <method signature="CountryDropdown.Verify_CountryDropdown_CountryList()[pri:2, instance:com.anglo.CountryDropdown@437da279]" name="Verify_CountryDropdown_CountryList" class="com.anglo.CountryDropdown"/>
+      </group> <!-- To Verify CountryDropdown Functionality -->
     </groups>
-    <test started-at="2022-11-16T00:10:30 IST" name="Default test" finished-at="2022-11-16T00:12:23 IST" duration-ms="112710">
-      <class name="com.anglo.MainNav">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.MainNav@242b836]" started-at="2022-11-16T00:10:31 IST" name="setup" finished-at="2022-11-16T00:10:34 IST" duration-ms="3846" status="PASS">
+    <test started-at="2022-11-16T14:17:09 IST" name="Default test" finished-at="2022-11-16T14:17:25 IST" duration-ms="16890">
+      <class name="com.anglo.CountryDropdown">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.CountryDropdown@437da279]" started-at="2022-11-16T14:17:09 IST" name="setup" finished-at="2022-11-16T14:17:18 IST" duration-ms="9028" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyAboutUs_Headerlinks()[pri:0, instance:com.anglo.MainNav@242b836]" started-at="2022-11-16T00:10:34 IST" name="VerifyAboutUs_Headerlinks" finished-at="2022-11-16T00:10:48 IST" duration-ms="13822" status="PASS">
+        <test-method signature="Verify_CountryDropdown_present()[pri:1, instance:com.anglo.CountryDropdown@437da279]" started-at="2022-11-16T14:17:18 IST" name="Verify_CountryDropdown_present" finished-at="2022-11-16T14:17:18 IST" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyAboutUs_Headerlinks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.MainNav@242b836]" started-at="2022-11-16T00:10:48 IST" name="teardown" finished-at="2022-11-16T00:10:49 IST" duration-ms="783" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.MainNav@242b836]" started-at="2022-11-16T00:10:49 IST" name="setup" finished-at="2022-11-16T00:10:50 IST" duration-ms="1328" status="PASS">
+        </test-method> <!-- Verify_CountryDropdown_present -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.CountryDropdown@437da279]" started-at="2022-11-16T14:17:18 IST" name="setup" finished-at="2022-11-16T14:17:25 IST" duration-ms="6638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyFuturesmart_Headerlinks()[pri:0, instance:com.anglo.MainNav@242b836]" started-at="2022-11-16T00:10:50 IST" name="VerifyFuturesmart_Headerlinks" finished-at="2022-11-16T00:11:00 IST" duration-ms="9304" status="PASS">
+        <test-method signature="Verify_CountryDropdown_CountryList()[pri:2, instance:com.anglo.CountryDropdown@437da279]" started-at="2022-11-16T14:17:25 IST" name="Verify_CountryDropdown_CountryList" finished-at="2022-11-16T14:17:25 IST" duration-ms="875" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyFuturesmart_Headerlinks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.MainNav@242b836]" started-at="2022-11-16T00:11:00 IST" name="teardown" finished-at="2022-11-16T00:11:01 IST" duration-ms="1158" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.MainNav@242b836]" started-at="2022-11-16T00:11:01 IST" name="setup" finished-at="2022-11-16T00:11:03 IST" duration-ms="1866" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifyInvestors_Headerlinks()[pri:0, instance:com.anglo.MainNav@242b836]" started-at="2022-11-16T00:11:03 IST" name="VerifyInvestors_Headerlinks" finished-at="2022-11-16T00:11:42 IST" duration-ms="39234" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyInvestors_Headerlinks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.MainNav@242b836]" started-at="2022-11-16T00:11:42 IST" name="teardown" finished-at="2022-11-16T00:11:43 IST" duration-ms="741" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.MainNav@242b836]" started-at="2022-11-16T00:11:43 IST" name="setup" finished-at="2022-11-16T00:11:44 IST" duration-ms="1356" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifyProducts_Headerlinks()[pri:0, instance:com.anglo.MainNav@242b836]" started-at="2022-11-16T00:11:44 IST" name="VerifyProducts_Headerlinks" finished-at="2022-11-16T00:11:56 IST" duration-ms="11887" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyProducts_Headerlinks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.MainNav@242b836]" started-at="2022-11-16T00:11:56 IST" name="teardown" finished-at="2022-11-16T00:11:57 IST" duration-ms="712" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.MainNav@242b836]" started-at="2022-11-16T00:11:57 IST" name="setup" finished-at="2022-11-16T00:11:58 IST" duration-ms="1367" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifySustainability_Headerlinks()[pri:0, instance:com.anglo.MainNav@242b836]" started-at="2022-11-16T00:11:58 IST" name="VerifySustainability_Headerlinks" finished-at="2022-11-16T00:12:22 IST" duration-ms="24454" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifySustainability_Headerlinks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.MainNav@242b836]" started-at="2022-11-16T00:12:22 IST" name="teardown" finished-at="2022-11-16T00:12:23 IST" duration-ms="776" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.anglo.MainNav -->
+        </test-method> <!-- Verify_CountryDropdown_CountryList -->
+      </class> <!-- com.anglo.CountryDropdown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
