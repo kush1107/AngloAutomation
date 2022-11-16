@@ -1,0 +1,226 @@
+<html>
+<head>
+<title>TestNG:  Regression Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 16 14:28:10 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>235 seconds (235959 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.anglo.SearchPage.Verify_DummyText_input()'><b>Verify_DummyText_input</b><br>Test class: com.anglo.SearchPage</td>
+<td><div><pre>java.lang.AssertionError: Text  found! expected [false] but found [true]
+	at com.anglo.SearchPage.Verify_DummyText_input(SearchPage.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1254907391", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1254907391'><pre>java.lang.AssertionError: Text  found! expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertFalse(Assert.java:78)
+	at com.anglo.SearchPage.Verify_DummyText_input(SearchPage.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>com.anglo.SearchPage@6574a52c</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.anglo.MainNav.VerifyAboutUs_Headerlinks()'><b>VerifyAboutUs_Headerlinks</b><br>Test class: com.anglo.MainNav</td>
+<td></td>
+<td>15</td>
+<td>com.anglo.MainNav@60099951</td></tr>
+<tr>
+<td title='com.anglo.Footerlinks.VerifyWebsiteSpeciific_Footerlinks()'><b>VerifyWebsiteSpeciific_Footerlinks</b><br>Test class: com.anglo.Footerlinks</td>
+<td></td>
+<td>4</td>
+<td>com.anglo.Footerlinks@1ffaf86</td></tr>
+<tr>
+<td title='com.anglo.PageNotFound.Verify_Homepagelink()'><b>Verify_Homepagelink</b><br>Test class: com.anglo.PageNotFound</td>
+<td></td>
+<td>2</td>
+<td>com.anglo.PageNotFound@1c7696c6</td></tr>
+<tr>
+<td title='com.anglo.SearchPage.Verify_UnknownText_input()'><b>Verify_UnknownText_input</b><br>Test class: com.anglo.SearchPage</td>
+<td></td>
+<td>10</td>
+<td>com.anglo.SearchPage@6574a52c</td></tr>
+<tr>
+<td title='com.anglo.MainNav.VerifyCareers_Headerlinks()'><b>VerifyCareers_Headerlinks</b><br>Test class: com.anglo.MainNav</td>
+<td></td>
+<td>25</td>
+<td>com.anglo.MainNav@60099951</td></tr>
+<tr>
+<td title='com.anglo.MainNav.VerifyProducts_Headerlinks()'><b>VerifyProducts_Headerlinks</b><br>Test class: com.anglo.MainNav</td>
+<td></td>
+<td>11</td>
+<td>com.anglo.MainNav@60099951</td></tr>
+<tr>
+<td title='com.anglo.MainNav.VerifyInvestors_Headerlinks()'><b>VerifyInvestors_Headerlinks</b><br>Test class: com.anglo.MainNav</td>
+<td></td>
+<td>48</td>
+<td>com.anglo.MainNav@60099951</td></tr>
+<tr>
+<td title='com.anglo.PageNotFound.Verify_Sitemaplink()'><b>Verify_Sitemaplink</b><br>Test class: com.anglo.PageNotFound</td>
+<td></td>
+<td>2</td>
+<td>com.anglo.PageNotFound@1c7696c6</td></tr>
+<tr>
+<td title='com.anglo.Footerlinks.VerifySocialIcons_Footerlinks()'><b>VerifySocialIcons_Footerlinks</b><br>Test class: com.anglo.Footerlinks</td>
+<td></td>
+<td>4</td>
+<td>com.anglo.Footerlinks@1ffaf86</td></tr>
+<tr>
+<td title='com.anglo.CountryDropdown.Verify_CountryDropdown_present()'><b>Verify_CountryDropdown_present</b><br>Test class: com.anglo.CountryDropdown</td>
+<td></td>
+<td>0</td>
+<td>com.anglo.CountryDropdown@428640fa</td></tr>
+<tr>
+<td title='com.anglo.CountryDropdown.Verify_CountryDropdown_CountryList()'><b>Verify_CountryDropdown_CountryList</b><br>Test class: com.anglo.CountryDropdown</td>
+<td></td>
+<td>0</td>
+<td>com.anglo.CountryDropdown@428640fa</td></tr>
+<tr>
+<td title='com.anglo.Footerlinks.VerifyOur_websites_Footerlinks()'><b>VerifyOur_websites_Footerlinks</b><br>Test class: com.anglo.Footerlinks</td>
+<td></td>
+<td>4</td>
+<td>com.anglo.Footerlinks@1ffaf86</td></tr>
+<tr>
+<td title='com.anglo.PageNotFound.VerifyPageTitle()'><b>VerifyPageTitle</b><br>Test class: com.anglo.PageNotFound</td>
+<td></td>
+<td>2</td>
+<td>com.anglo.PageNotFound@1c7696c6</td></tr>
+<tr>
+<td title='com.anglo.PageNotFound.Verify_PageTimer()'><b>Verify_PageTimer</b><br>Test class: com.anglo.PageNotFound</td>
+<td></td>
+<td>2</td>
+<td>com.anglo.PageNotFound@1c7696c6</td></tr>
+<tr>
+<td title='com.anglo.MainNav.VerifySustainability_Headerlinks()'><b>VerifySustainability_Headerlinks</b><br>Test class: com.anglo.MainNav</td>
+<td></td>
+<td>23</td>
+<td>com.anglo.MainNav@60099951</td></tr>
+<tr>
+<td title='com.anglo.SearchPage.Verify_ShareFunctionality()'><b>Verify_ShareFunctionality</b><br>Test class: com.anglo.SearchPage</td>
+<td></td>
+<td>2</td>
+<td>com.anglo.SearchPage@6574a52c</td></tr>
+<tr>
+<td title='com.anglo.BackToTop.Verify_BackToTop_present()'><b>Verify_BackToTop_present</b><br>Test class: com.anglo.BackToTop</td>
+<td></td>
+<td>6</td>
+<td>com.anglo.BackToTop@6c1a5b54</td></tr>
+<tr>
+<td title='com.anglo.MainNav.VerifyFuturesmart_Headerlinks()'><b>VerifyFuturesmart_Headerlinks</b><br>Test class: com.anglo.MainNav</td>
+<td></td>
+<td>10</td>
+<td>com.anglo.MainNav@60099951</td></tr>
+<tr>
+<td title='com.anglo.PageNotFound.VerifyCompanyName()'><b>VerifyCompanyName</b><br>Test class: com.anglo.PageNotFound</td>
+<td></td>
+<td>2</td>
+<td>com.anglo.PageNotFound@1c7696c6</td></tr>
+</table><p>
+</body>
+</html>
