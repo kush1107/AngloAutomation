@@ -1,346 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="19" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-16T14:28:10 IST" name="Anglo American Suite" finished-at="2022-11-16T14:32:06 IST" duration-ms="235959">
+  <suite started-at="2022-11-21T18:06:23 IST" name="Default suite" finished-at="2022-11-21T18:06:40 IST" duration-ms="17028">
     <groups>
       <group name="To Verify CountryDropdown Functionality">
-        <method signature="CountryDropdown.Verify_CountryDropdown_present()[pri:1, instance:com.anglo.CountryDropdown@428640fa]" name="Verify_CountryDropdown_present" class="com.anglo.CountryDropdown"/>
-        <method signature="CountryDropdown.Verify_CountryDropdown_CountryList()[pri:2, instance:com.anglo.CountryDropdown@428640fa]" name="Verify_CountryDropdown_CountryList" class="com.anglo.CountryDropdown"/>
+        <method signature="CountryDropdown.Verify_CountryDropdown_present()[pri:1, instance:com.anglo.CountryDropdown@a38c7fe]" name="Verify_CountryDropdown_present" class="com.anglo.CountryDropdown"/>
+        <method signature="CountryDropdown.Verify_CountryDropdown_CountryList()[pri:2, instance:com.anglo.CountryDropdown@a38c7fe]" name="Verify_CountryDropdown_CountryList" class="com.anglo.CountryDropdown"/>
       </group> <!-- To Verify CountryDropdown Functionality -->
-      <group name="To Verify Footer Links ">
-        <method signature="Footerlinks.VerifyOur_websites_Footerlinks()[pri:0, instance:com.anglo.Footerlinks@1ffaf86]" name="VerifyOur_websites_Footerlinks" class="com.anglo.Footerlinks"/>
-        <method signature="Footerlinks.VerifySocialIcons_Footerlinks()[pri:0, instance:com.anglo.Footerlinks@1ffaf86]" name="VerifySocialIcons_Footerlinks" class="com.anglo.Footerlinks"/>
-        <method signature="Footerlinks.VerifyWebsiteSpeciific_Footerlinks()[pri:0, instance:com.anglo.Footerlinks@1ffaf86]" name="VerifyWebsiteSpeciific_Footerlinks" class="com.anglo.Footerlinks"/>
-      </group> <!-- To Verify Footer Links  -->
-      <group name="To Verify Back to Top Functionality ">
-        <method signature="BackToTop.Verify_BackToTop_present()[pri:0, instance:com.anglo.BackToTop@6c1a5b54]" name="Verify_BackToTop_present" class="com.anglo.BackToTop"/>
-      </group> <!-- To Verify Back to Top Functionality  -->
-      <group name="To Verify AboutUs Links ">
-        <method signature="MainNav.VerifyAboutUs_Headerlinks()[pri:1, instance:com.anglo.MainNav@60099951]" name="VerifyAboutUs_Headerlinks" class="com.anglo.MainNav"/>
-      </group> <!-- To Verify AboutUs Links  -->
-      <group name="To Verify Sustainability Links ">
-        <method signature="MainNav.VerifySustainability_Headerlinks()[pri:3, instance:com.anglo.MainNav@60099951]" name="VerifySustainability_Headerlinks" class="com.anglo.MainNav"/>
-      </group> <!-- To Verify Sustainability Links  -->
-      <group name="To Verify Careers Links ">
-        <method signature="MainNav.VerifyCareers_Headerlinks()[pri:6, instance:com.anglo.MainNav@60099951]" name="VerifyCareers_Headerlinks" class="com.anglo.MainNav"/>
-      </group> <!-- To Verify Careers Links  -->
-      <group name="To Verify Investors Links ">
-        <method signature="MainNav.VerifyInvestors_Headerlinks()[pri:5, instance:com.anglo.MainNav@60099951]" name="VerifyInvestors_Headerlinks" class="com.anglo.MainNav"/>
-      </group> <!-- To Verify Investors Links  -->
-      <group name="To Verify Products Links ">
-        <method signature="MainNav.VerifyProducts_Headerlinks()[pri:2, instance:com.anglo.MainNav@60099951]" name="VerifyProducts_Headerlinks" class="com.anglo.MainNav"/>
-      </group> <!-- To Verify Products Links  -->
-      <group name="To Verify Search Page ">
-        <method signature="SearchPage.Verify_DummyText_input()[pri:0, instance:com.anglo.SearchPage@6574a52c]" name="Verify_DummyText_input" class="com.anglo.SearchPage"/>
-        <method signature="SearchPage.Verify_ShareFunctionality()[pri:0, instance:com.anglo.SearchPage@6574a52c]" name="Verify_ShareFunctionality" class="com.anglo.SearchPage"/>
-        <method signature="SearchPage.Verify_UnknownText_input()[pri:0, instance:com.anglo.SearchPage@6574a52c]" name="Verify_UnknownText_input" class="com.anglo.SearchPage"/>
-      </group> <!-- To Verify Search Page  -->
-      <group name="To Verify Futuresmart Links ">
-        <method signature="MainNav.VerifyFuturesmart_Headerlinks()[pri:4, instance:com.anglo.MainNav@60099951]" name="VerifyFuturesmart_Headerlinks" class="com.anglo.MainNav"/>
-      </group> <!-- To Verify Futuresmart Links  -->
-      <group name="To Verify Page Not Found Page ">
-        <method signature="PageNotFound.VerifyPageTitle()[pri:1, instance:com.anglo.PageNotFound@1c7696c6]" name="VerifyPageTitle" class="com.anglo.PageNotFound"/>
-        <method signature="PageNotFound.VerifyCompanyName()[pri:2, instance:com.anglo.PageNotFound@1c7696c6]" name="VerifyCompanyName" class="com.anglo.PageNotFound"/>
-        <method signature="PageNotFound.Verify_Homepagelink()[pri:3, instance:com.anglo.PageNotFound@1c7696c6]" name="Verify_Homepagelink" class="com.anglo.PageNotFound"/>
-        <method signature="PageNotFound.Verify_Sitemaplink()[pri:4, instance:com.anglo.PageNotFound@1c7696c6]" name="Verify_Sitemaplink" class="com.anglo.PageNotFound"/>
-        <method signature="PageNotFound.Verify_PageTimer()[pri:5, instance:com.anglo.PageNotFound@1c7696c6]" name="Verify_PageTimer" class="com.anglo.PageNotFound"/>
-      </group> <!-- To Verify Page Not Found Page  -->
     </groups>
-    <test started-at="2022-11-16T14:28:10 IST" name="Regression Test" finished-at="2022-11-16T14:32:06 IST" duration-ms="235959">
+    <test started-at="2022-11-21T18:06:23 IST" name="Default test" finished-at="2022-11-21T18:06:40 IST" duration-ms="17028">
       <class name="com.anglo.CountryDropdown">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.CountryDropdown@428640fa]" started-at="2022-11-16T14:28:10 IST" name="setup" finished-at="2022-11-16T14:28:18 IST" duration-ms="7352" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.CountryDropdown@a38c7fe]" started-at="2022-11-21T18:06:23 IST" name="setup" finished-at="2022-11-21T18:06:30 IST" duration-ms="7409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_CountryDropdown_present()[pri:1, instance:com.anglo.CountryDropdown@428640fa]" started-at="2022-11-16T14:28:18 IST" name="Verify_CountryDropdown_present" finished-at="2022-11-16T14:28:18 IST" duration-ms="226" status="PASS">
+        <test-method signature="Verify_CountryDropdown_present()[pri:1, instance:com.anglo.CountryDropdown@a38c7fe]" started-at="2022-11-21T18:06:30 IST" name="Verify_CountryDropdown_present" finished-at="2022-11-21T18:06:32 IST" duration-ms="2058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CountryDropdown_present -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.CountryDropdown@428640fa]" started-at="2022-11-16T14:28:18 IST" name="teardown" finished-at="2022-11-16T14:28:18 IST" duration-ms="337" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.CountryDropdown@428640fa]" started-at="2022-11-16T14:28:18 IST" name="setup" finished-at="2022-11-16T14:28:23 IST" duration-ms="4729" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.CountryDropdown@a38c7fe]" started-at="2022-11-21T18:06:32 IST" name="setup" finished-at="2022-11-21T18:06:38 IST" duration-ms="5382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_CountryDropdown_CountryList()[pri:2, instance:com.anglo.CountryDropdown@428640fa]" started-at="2022-11-16T14:28:23 IST" name="Verify_CountryDropdown_CountryList" finished-at="2022-11-16T14:28:24 IST" duration-ms="604" status="PASS">
+        <test-method signature="Verify_CountryDropdown_CountryList()[pri:2, instance:com.anglo.CountryDropdown@a38c7fe]" started-at="2022-11-21T18:06:38 IST" name="Verify_CountryDropdown_CountryList" finished-at="2022-11-21T18:06:40 IST" duration-ms="2107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_CountryDropdown_CountryList -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.CountryDropdown@428640fa]" started-at="2022-11-16T14:28:24 IST" name="teardown" finished-at="2022-11-16T14:28:24 IST" duration-ms="310" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.CountryDropdown@a38c7fe]" started-at="2022-11-21T18:06:40 IST" name="teardown" finished-at="2022-11-21T18:06:40 IST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.anglo.CountryDropdown -->
-      <class name="com.anglo.BackToTop">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.BackToTop@6c1a5b54]" started-at="2022-11-16T14:29:10 IST" name="setup" finished-at="2022-11-16T14:29:11 IST" duration-ms="1561" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_BackToTop_present()[pri:0, instance:com.anglo.BackToTop@6c1a5b54]" started-at="2022-11-16T14:29:11 IST" name="Verify_BackToTop_present" finished-at="2022-11-16T14:29:18 IST" duration-ms="6850" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_BackToTop_present -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.BackToTop@6c1a5b54]" started-at="2022-11-16T14:29:18 IST" name="teardown" finished-at="2022-11-16T14:29:19 IST" duration-ms="407" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.anglo.BackToTop -->
-      <class name="com.anglo.Footerlinks">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.Footerlinks@1ffaf86]" started-at="2022-11-16T14:28:24 IST" name="setup" finished-at="2022-11-16T14:28:25 IST" duration-ms="1211" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifyOur_websites_Footerlinks()[pri:0, instance:com.anglo.Footerlinks@1ffaf86]" started-at="2022-11-16T14:28:25 IST" name="VerifyOur_websites_Footerlinks" finished-at="2022-11-16T14:28:29 IST" duration-ms="4148" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyOur_websites_Footerlinks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.Footerlinks@1ffaf86]" started-at="2022-11-16T14:28:29 IST" name="teardown" finished-at="2022-11-16T14:28:30 IST" duration-ms="248" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.Footerlinks@1ffaf86]" started-at="2022-11-16T14:28:30 IST" name="setup" finished-at="2022-11-16T14:28:31 IST" duration-ms="1323" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifySocialIcons_Footerlinks()[pri:0, instance:com.anglo.Footerlinks@1ffaf86]" started-at="2022-11-16T14:28:31 IST" name="VerifySocialIcons_Footerlinks" finished-at="2022-11-16T14:28:35 IST" duration-ms="4029" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifySocialIcons_Footerlinks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.Footerlinks@1ffaf86]" started-at="2022-11-16T14:28:35 IST" name="teardown" finished-at="2022-11-16T14:28:35 IST" duration-ms="306" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.Footerlinks@1ffaf86]" started-at="2022-11-16T14:28:35 IST" name="setup" finished-at="2022-11-16T14:28:37 IST" duration-ms="1350" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifyWebsiteSpeciific_Footerlinks()[pri:0, instance:com.anglo.Footerlinks@1ffaf86]" started-at="2022-11-16T14:28:37 IST" name="VerifyWebsiteSpeciific_Footerlinks" finished-at="2022-11-16T14:28:41 IST" duration-ms="4009" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyWebsiteSpeciific_Footerlinks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.Footerlinks@1ffaf86]" started-at="2022-11-16T14:28:41 IST" name="teardown" finished-at="2022-11-16T14:28:41 IST" duration-ms="310" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.anglo.Footerlinks -->
-      <class name="com.anglo.SearchPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.SearchPage@6574a52c]" started-at="2022-11-16T14:28:41 IST" name="setup" finished-at="2022-11-16T14:28:42 IST" duration-ms="1397" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_DummyText_input()[pri:0, instance:com.anglo.SearchPage@6574a52c]" started-at="2022-11-16T14:28:42 IST" name="Verify_DummyText_input" finished-at="2022-11-16T14:28:53 IST" duration-ms="10315" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Text  found! expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Text  found! expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertFalse(Assert.java:78)
-at com.anglo.SearchPage.Verify_DummyText_input(SearchPage.java:56)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_DummyText_input -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.SearchPage@6574a52c]" started-at="2022-11-16T14:28:53 IST" name="teardown" finished-at="2022-11-16T14:28:53 IST" duration-ms="284" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.SearchPage@6574a52c]" started-at="2022-11-16T14:28:53 IST" name="setup" finished-at="2022-11-16T14:28:54 IST" duration-ms="1148" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_ShareFunctionality()[pri:0, instance:com.anglo.SearchPage@6574a52c]" started-at="2022-11-16T14:28:54 IST" name="Verify_ShareFunctionality" finished-at="2022-11-16T14:28:57 IST" duration-ms="2860" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_ShareFunctionality -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.SearchPage@6574a52c]" started-at="2022-11-16T14:28:57 IST" name="teardown" finished-at="2022-11-16T14:28:57 IST" duration-ms="267" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.SearchPage@6574a52c]" started-at="2022-11-16T14:28:57 IST" name="setup" finished-at="2022-11-16T14:28:58 IST" duration-ms="1206" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_UnknownText_input()[pri:0, instance:com.anglo.SearchPage@6574a52c]" started-at="2022-11-16T14:28:58 IST" name="Verify_UnknownText_input" finished-at="2022-11-16T14:29:09 IST" duration-ms="10942" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_UnknownText_input -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.SearchPage@6574a52c]" started-at="2022-11-16T14:29:09 IST" name="teardown" finished-at="2022-11-16T14:29:10 IST" duration-ms="339" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.anglo.SearchPage -->
-      <class name="com.anglo.PageNotFound">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.PageNotFound@1c7696c6]" started-at="2022-11-16T14:29:19 IST" name="setup" finished-at="2022-11-16T14:29:20 IST" duration-ms="1164" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifyPageTitle()[pri:1, instance:com.anglo.PageNotFound@1c7696c6]" started-at="2022-11-16T14:29:20 IST" name="VerifyPageTitle" finished-at="2022-11-16T14:29:23 IST" duration-ms="2833" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyPageTitle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.PageNotFound@1c7696c6]" started-at="2022-11-16T14:29:23 IST" name="teardown" finished-at="2022-11-16T14:29:23 IST" duration-ms="302" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.PageNotFound@1c7696c6]" started-at="2022-11-16T14:29:23 IST" name="setup" finished-at="2022-11-16T14:29:24 IST" duration-ms="1293" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifyCompanyName()[pri:2, instance:com.anglo.PageNotFound@1c7696c6]" started-at="2022-11-16T14:29:24 IST" name="VerifyCompanyName" finished-at="2022-11-16T14:29:27 IST" duration-ms="2764" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyCompanyName -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.PageNotFound@1c7696c6]" started-at="2022-11-16T14:29:27 IST" name="teardown" finished-at="2022-11-16T14:29:27 IST" duration-ms="285" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.PageNotFound@1c7696c6]" started-at="2022-11-16T14:29:27 IST" name="setup" finished-at="2022-11-16T14:29:28 IST" duration-ms="1290" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Homepagelink()[pri:3, instance:com.anglo.PageNotFound@1c7696c6]" started-at="2022-11-16T14:29:28 IST" name="Verify_Homepagelink" finished-at="2022-11-16T14:29:31 IST" duration-ms="2957" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Homepagelink -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.PageNotFound@1c7696c6]" started-at="2022-11-16T14:29:31 IST" name="teardown" finished-at="2022-11-16T14:29:32 IST" duration-ms="267" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.PageNotFound@1c7696c6]" started-at="2022-11-16T14:29:32 IST" name="setup" finished-at="2022-11-16T14:29:33 IST" duration-ms="1376" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Sitemaplink()[pri:4, instance:com.anglo.PageNotFound@1c7696c6]" started-at="2022-11-16T14:29:33 IST" name="Verify_Sitemaplink" finished-at="2022-11-16T14:29:36 IST" duration-ms="2612" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Sitemaplink -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.PageNotFound@1c7696c6]" started-at="2022-11-16T14:29:36 IST" name="teardown" finished-at="2022-11-16T14:29:36 IST" duration-ms="313" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.PageNotFound@1c7696c6]" started-at="2022-11-16T14:29:36 IST" name="setup" finished-at="2022-11-16T14:29:37 IST" duration-ms="1405" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_PageTimer()[pri:5, instance:com.anglo.PageNotFound@1c7696c6]" started-at="2022-11-16T14:29:37 IST" name="Verify_PageTimer" finished-at="2022-11-16T14:29:40 IST" duration-ms="2677" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_PageTimer -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.PageNotFound@1c7696c6]" started-at="2022-11-16T14:29:40 IST" name="teardown" finished-at="2022-11-16T14:29:40 IST" duration-ms="288" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.anglo.PageNotFound -->
-      <class name="com.anglo.MainNav">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.MainNav@60099951]" started-at="2022-11-16T14:29:40 IST" name="setup" finished-at="2022-11-16T14:29:42 IST" duration-ms="1576" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifyAboutUs_Headerlinks()[pri:1, instance:com.anglo.MainNav@60099951]" started-at="2022-11-16T14:29:42 IST" name="VerifyAboutUs_Headerlinks" finished-at="2022-11-16T14:29:57 IST" duration-ms="15076" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyAboutUs_Headerlinks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.MainNav@60099951]" started-at="2022-11-16T14:29:57 IST" name="teardown" finished-at="2022-11-16T14:29:57 IST" duration-ms="375" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.MainNav@60099951]" started-at="2022-11-16T14:29:57 IST" name="setup" finished-at="2022-11-16T14:29:59 IST" duration-ms="1437" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifyProducts_Headerlinks()[pri:2, instance:com.anglo.MainNav@60099951]" started-at="2022-11-16T14:29:59 IST" name="VerifyProducts_Headerlinks" finished-at="2022-11-16T14:30:11 IST" duration-ms="11800" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyProducts_Headerlinks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.MainNav@60099951]" started-at="2022-11-16T14:30:11 IST" name="teardown" finished-at="2022-11-16T14:30:11 IST" duration-ms="369" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.MainNav@60099951]" started-at="2022-11-16T14:30:11 IST" name="setup" finished-at="2022-11-16T14:30:12 IST" duration-ms="1442" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifySustainability_Headerlinks()[pri:3, instance:com.anglo.MainNav@60099951]" started-at="2022-11-16T14:30:12 IST" name="VerifySustainability_Headerlinks" finished-at="2022-11-16T14:30:36 IST" duration-ms="23704" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifySustainability_Headerlinks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.MainNav@60099951]" started-at="2022-11-16T14:30:36 IST" name="teardown" finished-at="2022-11-16T14:30:37 IST" duration-ms="409" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.MainNav@60099951]" started-at="2022-11-16T14:30:37 IST" name="setup" finished-at="2022-11-16T14:30:38 IST" duration-ms="1457" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifyFuturesmart_Headerlinks()[pri:4, instance:com.anglo.MainNav@60099951]" started-at="2022-11-16T14:30:38 IST" name="VerifyFuturesmart_Headerlinks" finished-at="2022-11-16T14:30:48 IST" duration-ms="10053" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyFuturesmart_Headerlinks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.MainNav@60099951]" started-at="2022-11-16T14:30:48 IST" name="teardown" finished-at="2022-11-16T14:30:48 IST" duration-ms="376" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.MainNav@60099951]" started-at="2022-11-16T14:30:48 IST" name="setup" finished-at="2022-11-16T14:30:50 IST" duration-ms="1270" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifyInvestors_Headerlinks()[pri:5, instance:com.anglo.MainNav@60099951]" started-at="2022-11-16T14:30:50 IST" name="VerifyInvestors_Headerlinks" finished-at="2022-11-16T14:31:38 IST" duration-ms="48329" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyInvestors_Headerlinks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.MainNav@60099951]" started-at="2022-11-16T14:31:38 IST" name="teardown" finished-at="2022-11-16T14:31:38 IST" duration-ms="426" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.anglo.MainNav@60099951]" started-at="2022-11-16T14:31:38 IST" name="setup" finished-at="2022-11-16T14:31:40 IST" duration-ms="1480" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifyCareers_Headerlinks()[pri:6, instance:com.anglo.MainNav@60099951]" started-at="2022-11-16T14:31:40 IST" name="VerifyCareers_Headerlinks" finished-at="2022-11-16T14:32:06 IST" duration-ms="25861" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyCareers_Headerlinks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.anglo.MainNav@60099951]" started-at="2022-11-16T14:32:06 IST" name="teardown" finished-at="2022-11-16T14:32:06 IST" duration-ms="443" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.anglo.MainNav -->
-    </test> <!-- Regression Test -->
-  </suite> <!-- Anglo American Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

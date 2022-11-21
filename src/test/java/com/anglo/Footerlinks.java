@@ -1,6 +1,9 @@
 package com.anglo;
 
 import org.testng.annotations.Test;
+
+import Basepackage.TestBase;
+
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -10,14 +13,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-public class Footerlinks {
-	
-	public WebDriver driver;
+public class Footerlinks extends TestBase{
+
+
+
 	
 	@BeforeMethod
 	public void setup()
 	{
-		 driver = new ChromeDriver();
+		initialization();
 	}
 	
 

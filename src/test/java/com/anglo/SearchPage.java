@@ -12,14 +12,17 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class SearchPage {
-	public WebDriver driver;
+import Basepackage.TestBase;
+
+public class SearchPage extends TestBase{
+
+
 
 	
 	@BeforeMethod
 	public void setup()
 	{
-		 driver = new ChromeDriver();
+		initialization();
 	}
 	
 

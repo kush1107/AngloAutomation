@@ -1,6 +1,9 @@
 package com.anglo;
 
 import org.testng.annotations.Test;
+
+import Basepackage.TestBase;
+
 import org.testng.AssertJUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,14 +13,15 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-public class PageNotFound {
-	
-	public WebDriver driver;
+public class PageNotFound extends TestBase{
 
+
+
+	
 	@BeforeMethod
 	public void setup()
 	{
-		 driver = new ChromeDriver();
+		initialization();
 	}
 	
 

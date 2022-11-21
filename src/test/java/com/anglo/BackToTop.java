@@ -10,16 +10,17 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class BackToTop {
+import Basepackage.TestBase;
 
-public WebDriver driver;
+public class BackToTop extends TestBase{
+
+
 
 	
 	@BeforeMethod
 	public void setup()
 	{
-		 driver = new ChromeDriver();
-		 driver.manage().window().maximize();
+		initialization();
 	}
 	
 

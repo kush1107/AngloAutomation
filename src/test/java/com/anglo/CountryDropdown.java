@@ -7,24 +7,28 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
-public class CountryDropdown {
-public WebDriver driver;
+import Basepackage.TestBase;
 
+public class CountryDropdown extends TestBase{
+
+
+
+	
 	@BeforeMethod
 	public void setup()
 	{
-		 driver = new ChromeDriver();
-		 driver.manage().window().maximize();
-		 driver.navigate().to("https://www.angloamerican.com/");
+		initialization();
 	}
 
 	@Test(groups = "To Verify CountryDropdown Functionality",priority = 1)
 	public void Verify_CountryDropdown_present() 
 	{
-		
+		 driver.navigate().to("https://www.angloamerican.com/");
 		WebElement country_dropdown = driver.findElement(By.xpath("//div[@class='top-group-container']//a[contains(text(),'Our websites')]"));
 		if(country_dropdown.isDisplayed()==true)
 			{
@@ -41,7 +45,7 @@ public WebDriver driver;
 	@Test(groups = "To Verify CountryDropdown Functionality",priority = 2)
 	public void Verify_CountryDropdown_CountryList()  //To verify country list availble after dropdown click
 	{
-		
+		 driver.navigate().to("https://www.angloamerican.com/");
 		WebElement country_dropdown = driver.findElement(By.xpath("//div[@class='top-group-container']//a[contains(text(),'Our websites')]"));
 		if(country_dropdown.isDisplayed()==true)
 			{
@@ -64,7 +68,7 @@ public WebDriver driver;
 	
 	}
 	
-	 @AfterMethod
+	 @AfterSuite
 	   	public void teardown()
 	   	{
 	   		 driver.quit();
