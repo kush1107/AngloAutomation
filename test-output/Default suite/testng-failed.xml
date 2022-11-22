@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ChromeProfile">
+      <class name="com.anglo.Sitemap">
         <methods>
+          <include name="Verify_Number_of_sitemaplinks"/>
           <include name="setup"/>
-          <include name="Verify_BackToTop_present"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- ChromeProfile -->
+      </class> <!-- com.anglo.Sitemap -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

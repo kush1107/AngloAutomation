@@ -19,7 +19,7 @@ public class TestBase {
 		
 		prop = new Properties();
 		try {
-			FileInputStream ip = new FileInputStream("D:\\AngloAutomation\\AngloAutomation\\src\\main\\java\\config.properties");
+			FileInputStream ip = new FileInputStream("D:\\AngloAmerican\\AngloAutomation\\src\\main\\java\\config.properties");
 		prop.load(ip);
 		
 		} catch (FileNotFoundException e) {
